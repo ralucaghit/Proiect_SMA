@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:padding="16dp"
+    tools:context=".AdunariActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:translationY="35dp"
+        android:text="@string/titlu_adunari"
+        android:fontFamily="@font/bungee"
+        android:textColor="#93a998"
+        android:textSize="26sp"
+        android:lineSpacingExtra="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:translationY="220dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/adunari0_btn"
+                android:layout_width="160dp"
+                android:layout_height="130dp"
+                android:layout_marginEnd="10dp"
+                android:backgroundTint="@color/white"
+                android:padding="8dp"
+                android:text="@string/adunari0"
+                android:fontFamily="@font/bungee"
+                android:textColor="#99BAA2"
+                android:textSize="22sp"
+                android:lineSpacingExtra="4dp"
+                app:cornerRadius="50dp"/>
+
+            <Button
+                android:id="@+id/adunari1_btn"
+                android:layout_width="160dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="10dp"
+                android:backgroundTint="@color/white"
+                android:padding="8dp"
+                android:text="@string/adunari1"
+                android:fontFamily="@font/bungee"
+                android:textColor="#99BAA2"
+                android:textSize="22sp"
+                android:lineSpacingExtra="4dp"
+                app:cornerRadius="50dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/adunari2_btn"
+                android:layout_width="160dp"
+                android:layout_height="130dp"
+                android:layout_marginEnd="10dp"
+                android:backgroundTint="@color/white"
+                android:padding="8dp"
+                android:text="@string/adunari2"
+                android:fontFamily="@font/bungee"
+                android:textColor="#99BAA2"
+                android:textSize="22sp"
+                android:lineSpacingExtra="4dp"
+                app:cornerRadius="50dp"/>
+
+            <Button
+                android:id="@+id/adunari3_btn"
+                android:layout_width="160dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="10dp"
+                android:backgroundTint="@color/white"
+                android:padding="8dp"
+                android:text="@string/adunari3"
+                android:fontFamily="@font/bungee"
+                android:textColor="#99BAA2"
+                android:textSize="22sp"
+                android:lineSpacingExtra="4dp"
+                app:cornerRadius="50dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/adunari4_btn"
+            android:layout_width="163dp"
+            android:layout_height="136dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/white"
+            android:padding="8dp"
+            android:text="@string/adunari4"
+            android:fontFamily="@font/bungee"
+            android:textColor="#99BAA2"
+            android:textSize="21sp"
+            android:lineSpacingExtra="4dp"
+            app:cornerRadius="50dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

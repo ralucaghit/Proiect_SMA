@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:padding="16dp"
+    tools:context=".GhicesteContextulActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/categorie_cuvant"
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/tvWords"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Baloane, Tort, Cadouri"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/btnCategory1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Categorie 1"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btnCategory2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Categorie 2"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal"
+            android:padding="8dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

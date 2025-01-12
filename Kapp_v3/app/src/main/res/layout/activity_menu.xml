@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bungee"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:text="@string/mainMenu_text"
+        android:textColor="#93a998"
+        android:textSize="26sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/math_btn"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:padding="10dp"
+            android:text="@string/mate_text"
+            android:fontFamily="@font/bungee"
+            android:textColor="#99BAA2"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/romana_btn"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/bungee"
+            android:padding="10dp"
+            android:text="@string/romana_text"
+            android:textColor="#99BAA2"
+            android:textSize="28sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
